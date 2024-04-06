@@ -9,6 +9,7 @@
     repository  = "https://github.com/TODOREPO.git"
     # TODO DETERMINE
     package-mode = false
+    # packages     = [{ include = "TODO" }]
 
 [tool.poetry.urls]
     Issues = "https://github.com/TODOREPO/issues"
