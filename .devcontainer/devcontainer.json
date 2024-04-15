@@ -16,7 +16,8 @@
                 "sourcery.sourcery",
                 "actboy168.tasks",
                 "shardulm94.trailing-spaces",
-                "redhat.vscode-yaml"
+                "redhat.vscode-yaml",
+                "twixes.pypi-assistant"
             ]
         }
     }
