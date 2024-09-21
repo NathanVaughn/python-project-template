@@ -24,7 +24,7 @@
         },
         {
             "label": "tests",
-            "command": "uv run pytest --cov --cov-report html",
+            "command": "uv run pytest --cov=TODO/ --cov-report html",
             "type": "shell",
             "dependsOn": ["install-pkgs"]
         },
