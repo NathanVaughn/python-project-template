@@ -2,7 +2,7 @@
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
-[![GitHub license](https://img.shields.io/github/license/TODOUSER/TODOPROJECTNAME)](https://github.com/TODOUSER/poetry-azure-artifacts-plugin/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/TODOUSER/TODOREPO)](https://github.com/TODOUSER/TODOREPO/blob/main/LICENSE)
 [![PyPi versions](https://img.shields.io/pypi/pyversions/TODOPROJECTNAME)](https://pypi.org/project/TODOPROJECTNAME)
 [![PyPi downloads](https://img.shields.io/pypi/dm/TODOPROJECTNAME)](https://pypi.org/project/TODOPROJECTNAME)
 
