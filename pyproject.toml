@@ -36,6 +36,9 @@
     venv                       = ".venv"
     reportMissingParameterType = true
 
+[tool.ruff.lint.flake8-tidy-imports]
+    ban-relative-imports = "all"
+
 # TODO: cam be deleted if not package
 # Uncomment if package
 # [build-system]
