@@ -34,7 +34,8 @@
 
 [tool.pyright]
     pythonVersion              = "3.9" # set to lowest supported version
-    # TODO best to remove if not library
+    pythonPlatform             = "All"
+    # TODO best to remove above if not library
     typeCheckingMode           = "basic"
     venvPath                   = "."
     venv                       = ".venv"
