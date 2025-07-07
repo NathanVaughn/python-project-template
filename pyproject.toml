@@ -46,6 +46,9 @@
 
 # TODO: cam be deleted if not package
 # Uncomment if package
+# [tool.uv.build-backend]
+#     module-root = ""
+
 # [build-system]
-#     requires      = ["hatchling"]
-#     build-backend = "hatchling.build"
+#     requires      = ["uv_build>=0.7.15"]
+#     build-backend = "uv_build"
