@@ -36,7 +36,7 @@
     pythonVersion              = "3.9" # set to lowest supported version
     pythonPlatform             = "All"
     # TODO best to remove above if not library
-    typeCheckingMode           = "basic"
+    typeCheckingMode           = "standard"
     venvPath                   = "."
     venv                       = ".venv"
     reportMissingParameterType = true
