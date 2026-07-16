@@ -3,31 +3,37 @@ repos:
     rev: v1.0.1
     hooks:
     -   id: check-json5
--   hooks:
+
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
     -   id: check-toml
     -   id: check-yaml
     -   id: check-case-conflict
     -   id: trailing-whitespace
     -   id: check-merge-conflict
     -   id: mixed-line-ending
-    repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v6.0.0
--   hooks:
-    -   id: uv-lock
-    repo: https://github.com/astral-sh/uv-pre-commit
+
+-   repo: https://github.com/astral-sh/uv-pre-commit
     rev: 0.11.24
--   hooks:
+    hooks:
+    -   id: uv-lock
+
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.19
+    hooks:
     -   args:
         -   --fix
         id: ruff-check
     -   id: ruff-format
-    repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.19
--   hooks:
-    -   id: ty
-    repo: https://github.com/astral-sh/ty-pre-commit
+
+-   repo: https://github.com/astral-sh/ty-pre-commit
     rev: v0.0.52
--   hooks:
-    -   id: markdownlint
-    repo: https://github.com/igorshubovych/markdownlint-cli
+    hooks:
+    -   id: ty
+
+-   repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.49.0
+    hooks:
+    -   id: markdownlint
+
